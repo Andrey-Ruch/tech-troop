@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exercise 5</title>
+  </head>
+
+  <body>
+    <h1>Contact Us</h1>
+
+    <form action="#">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <div>
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+          />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+          />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="phone">Phone: </label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="(555) 123-4567"
+            required
+          />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Message Details</legend>
+
+        <label for="subjects">Subject:</label>
+        <select name="subjects" id="subjects" required>
+          <option value="">Select subject</option>
+          <option value="work">Work</option>
+          <option value="fun">Fun</option>
+        </select>
+
+        <p>Priority:</p>
+        <input type="radio" id="low" name="priority" value="low" required/>
+        <label for="low">Low</label>
+
+        <input type="radio" id="medium" name="priority" value="medium" />
+        <label for="medium">Medium</label>
+
+        <input type="radio" id="high" name="priority" value="high" />
+        <label for="high">High</label>
+
+        <p><label for="message">Message:</label></p>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="40"
+          placeholder="Your message..."
+          required
+        ></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <div>
+          <input
+            type="checkbox"
+            id="subscribe"
+            name="subscribe"
+            value="newsletter"
+          />
+          <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+
+        <br />
+
+        <label for="contact-method">Contact Method:</label>
+        <select id="contact-method" name="contact_method" required>
+          <option value="email">Email</option>
+          <option value="phone">Phone</option>
+        </select>
+      </fieldset>
+
+      <br />
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
