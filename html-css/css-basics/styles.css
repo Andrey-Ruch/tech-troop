@@ -1,0 +1,117 @@
+/* Exercise 1 */
+.yellow-font {
+  color: yellow;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.pink-font {
+  color: pink;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.blue-font {
+  color: blue;
+  font-size: 16px;
+  font-family: fantasy;
+}
+
+/* Exercise 2 */
+.button-link {
+  background-color: bisque;
+  padding: 8px;
+  text-decoration: none;
+}
+
+/* Exercise 3 */
+.image-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link-image {
+  width: 100px;
+}
+
+/* Exercise 4 */
+#container {
+  font-family: Arial, sans-serif;
+  background-color: silver;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.box {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+}
+
+#first {
+  background-color: lightseagreen;
+}
+
+#second {
+  background-color: chocolate;
+}
+
+#container input {
+  border: 1px solid lightgray;
+}
+
+.button {
+  background-color: mediumseagreen;
+  border: 2px solid seagreen;
+  padding: 2px 8px;
+}
+
+/* Exercise 5 */
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+}
+
+thead th {
+  background: whitesmoke;
+  padding: 8px 0;
+}
+
+tbody td {
+  background: palegreen;
+  padding: 8px 0;
+  border-bottom: 1px solid gray;
+}
+
+td.pos,
+td.stats,
+td.points {
+  text-align: center;
+  width: 90px;
+}
+
+td.team {
+  font-weight: bold;
+}
+
+td.points {
+  font-weight: bold;
+}
+
+/* Exercise 6 */
+a {
+  text-decoration-color: black;
+}
+
+img {
+  width: 300px;
+}
+
+.process-title {
+  margin-top: 10px;
+  margin-bottom: 28px;
+  font-size: 38px;
+  font-weight: bold;
+}
